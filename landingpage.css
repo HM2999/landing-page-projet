@@ -1,0 +1,114 @@
+html, body {
+    overflow: visible;
+    scroll-behavior: smooth;
+}
+svg{
+height: 2.5rem;
+width:100%;
+}
+.title{
+    width: 100%;
+    font-size: 2.3vmax;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    color: #1f141c;
+}
+.card{
+max-width: 550px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width: 576px){
+   .card {
+       margin: 0 auto;
+       margin-top: 10px;
+       min-width: 350px;
+   }
+
+   input[type="button"]{
+    padding: 10px;
+    width: 120px;
+    margin-top: 10px;
+font-size: 1.2rem;
+font-weight: 400;
+
+}
+   
+}
+@media screen and (max-width: 768px){
+    .card {
+        margin: 0 auto;
+        margin-top: 10px;
+  
+    } 
+ }
+ @media  screen and (min-width:992px)
+ {
+     .card{
+         margin-left: 1%;
+     }
+     .rw1{
+         justify-content: center;
+     }
+ }    
+ 
+
+p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.cc{background-color: #181818;
+color: #f2f5fa;
+height: 350px;}
+.colo{
+    background-color: #f1f1f1;
+
+    border: none;
+}
+.shape:not([class*=shape-blur])>* {
+    transform: scale(2);
+}
+ .position-relative{
+    top: 19px;
+    z-index: 1;
+ }
+ .position-relative1{
+    top: -10px;
+    z-index: 1;
+ }
+
+.imgh{width: 100px;
+height: 100px;}
+h4{
+    width: 177px;
+}
+
+/* dont tach */
+nav.navbar.navbar-expand-md.bg-inverse.fixed-top.scrolling-navbar  {
+    background-image: -webkit-linear-gradient( 
+0deg
+ , #3c96ff 0%, #2dfbff 100%);
+}
+
+.girl{
+     width: 400px;
+     height: 650px;
+   }
+ .input-bg{
+     height: 65px;
+ }
+.logo{
+    height: 50px;
+    width: 60px;
+}
+.logo-sm{
+    height: 30px;
+    width: 30px;
+    padding: 3px 1px;
+    margin-bottom: 3px;
+}
